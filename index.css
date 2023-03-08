@@ -15,7 +15,7 @@ body {
     margin-right: 8px;
 }
 
-.main-image{
+.main-image {
     width: 90%;
     border-radius: 16px;
     align-items: center;
@@ -24,7 +24,7 @@ body {
     margin-right: 16px;
 }
 
-.content{
+.content {
     color: white;
     font-size: 12px;
     margin: 16px;
@@ -37,4 +37,23 @@ h1 {
 
 .lowcontent {
     opacity: 70%;
+}
+
+.caralho {
+    
+}
+
+span {
+    color: #02fffe;
+}
+
+.created {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.avatar-img {
+    width: 40px;
+    opacity: 100%;
+    margin: 0;
 }
