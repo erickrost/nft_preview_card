@@ -1,0 +1,40 @@
+body {
+    background-color: #0c192c;
+    font-family: Arial;
+    margin: 16px;
+}
+
+.Card {
+    padding: auto;
+    margin: auto;
+    background-color: #15273f;
+    border-radius: 16px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.main-image{
+    width: 90%;
+    border-radius: 16px;
+    align-items: center;
+    margin-top:16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.content{
+    color: white;
+    font-size: 12px;
+    margin: 16px;
+}
+
+h1 {
+    color:white;
+
+}
+
+.lowcontent {
+    opacity: 70%;
+}
