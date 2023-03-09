@@ -1,59 +1,90 @@
+* {
+    margin: 0;
+    font-size: 16px;
+}
+
 body {
+    height: 100vh;
     background-color: #0c192c;
-    font-family: Arial;
-    margin: 16px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Card {
-    padding: auto;
-    margin: auto;
     background-color: #15273f;
-    border-radius: 16px;
-    margin-top: 64px;
-    margin-bottom: 32px;
-    margin-left: 8px;
-    margin-right: 8px;
+    border-radius: 12px;
+    padding: 24px;
+    width: 300px;
+    overflow: hidden;
 }
 
-.main-image {
-    width: 90%;
-    border-radius: 16px;
-    align-items: center;
-    margin-top:16px;
-    margin-left: 16px;
-    margin-right: 16px;
+.card-image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card-wrapper {
+    color: white;
+}
+
+.card-title {
+    font-size: 20px;
+    margin: 24px 0;
+
 }
 
 .content {
-    color: white;
-    font-size: 12px;
-    margin: 16px;
+    color: #8bacd9;
+    font-size: 18px;
 }
 
-h1 {
-    color:white;
-
+.content-title {
+    margin-bottom: 24px;
 }
 
-.lowcontent {
-    opacity: 70%;
+.content-infos {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2e4058;
 }
 
-.caralho {
-    
-}
-
-span {
+.infos-price {
+    display: flex;
     color: #02fffe;
 }
 
-.created {
-    margin: 0;
-    vertical-align: middle;
+.infos-date {
+    display: flex;
 }
 
-.avatar-img {
-    width: 40px;
-    opacity: 100%;
-    margin: 0;
+.infos-price-icon {
+    margin-right: 6px;
+}
+
+.infos-date-icon {
+    margin-right: 6px;
+}
+
+.infos-price-value {
+    font-weight: 700;
+}
+
+.infos-created {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.vscodinho {
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 12px;
+    width: 32px;
+}
+
+.viadinho-bruno {
+    color: white;
 }
